@@ -1,0 +1,985 @@
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url(fonts/'Gilroy.ttf');
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+#body2 {
+    background-color: #ff5500;
+}
+
+#prank1 {
+    color: white;
+    font-size: 3em;
+    transform: translateX(-600px);
+    margin-top: -1.5em;
+}
+
+#prank2 {
+    color: white;
+    font-size: 1.4em;
+    font-weight: 500;
+    margin-right: -10em;
+    transform: translateX(-600px);
+    margin-top: -0.8em;
+}
+
+#prankbutton {
+    font-family: 'Gilroy';
+    font-weight: 600;
+    font-size: 1.2em;
+    color: black;
+    border: 2px solid white;
+    border-radius: 50px;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    background-color: white;
+    cursor: pointer;
+    position: absolute;
+    margin-left: 0em;
+    margin-top: 3em;
+    transform: scale(0.85)
+}
+
+h1 {
+    font-family: 'Gilroy';
+    font-size: 6em;
+    margin-bottom: 0.5em;
+    line-height: 1.1;
+}
+
+h1 span {
+    color: #FF5500;
+}
+
+p {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.75em;
+    margin-top: -1em;
+    line-height: 1.5;
+}
+
+.section1 {
+    width: 98vw;
+    height: 100vh;
+    position: absolute;
+    z-index: -10;
+}
+
+.section1 div:nth-of-type(1) {
+    background-color: #FF5500;
+    width: 20%;
+    height: 30%;
+    border-radius: 15%;
+    transform: rotate(45deg);
+    margin-left: 90em;
+    margin-top: -15em;
+}
+
+.section1 div:nth-of-type(2) {
+    background-color: #FF5500;
+    width: 600px;
+    height: 600px;
+    border-radius: 15%;
+    transform: rotate(45deg);
+    margin-left: 70em;
+    margin-top: 6em;
+}
+
+div iframe:nth-of-type(1) {
+    transform: scale(1.9) rotate(-45deg);
+    position: absolute;
+    left: 50px;
+    top: 140px;
+    clip-path: polygon(50% 0% , 100% 50%, 50% 100%, 0 50%);
+}
+
+.section1 div:nth-of-type(3) {
+    background-color: #FF5500;
+    position: absolute;
+    width: 900px;
+    height: 900px;
+    border-radius: 15%;
+    transform: rotate(45deg);
+    margin-left: 37.5em;
+    margin-top: 4em;
+}
+
+.section1 div:nth-of-type(4) {
+    background-color: #FF5500;
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    border-radius: 15%;
+    transform: rotate(45deg);
+    margin-left: 62em;
+    margin-top: -58em;
+}
+
+.section1 div:nth-of-type(5) {
+    background-color: #FF5500;
+    width: 600px;
+    height: 600px;
+    border-radius: 15%;
+    transform: rotate(45deg);
+    margin-left: 10em;
+    margin-top: 52em;
+}
+
+.section1 div:nth-of-type(6) {
+    background-color: #FF5500;
+    width: 600px;
+    height: 600px;
+    border-radius: 15%;
+    transform: rotate(45deg);
+    margin-top: 60em;
+    margin-right: 10em;
+    position: absolute;
+}
+
+.section1 div:nth-of-type(7) {
+    background-color: #FF5500;
+    width: 550px;
+    height: 550px;
+    border-radius: 15%;
+    transform: rotate(45deg);
+    margin-left: 37em;
+    position: absolute;
+}
+
+.section1 div:nth-of-type(8) {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    background-color: transparent;
+    transform: translateX(2200px);
+    margin-top: -20em;
+    margin-left: -46em;
+}
+
+.section1 div:nth-of-type(9) {
+    width: 600px;
+    height: 400px;
+    background-color: transparent;
+    transform: translateX(1120px);
+    margin-top: -121em;
+}
+
+.section1 div:nth-of-type(10) {
+    background-color: #FF5500;
+    width: 800px;
+    height: 800px;
+    border-radius: 15%;
+    transform: rotate(45deg);
+    margin-top: 200em;
+    margin-left: 17em;
+    position: absolute;
+}
+
+.section1 div:nth-of-type(11) {
+    background-color: #FF5500;
+    width: 450px;
+    height: 450px;
+    border-radius: 15%;
+    transform: rotate(45deg);
+    margin-top: 220em;
+    margin-left: 82em;
+    position: absolute;
+}
+
+.section1 div:nth-of-type(12) {
+    background-color: #FF5500;
+    width: 800px;
+    height: 800px;
+    border-radius: 15%;
+    transform: rotate(45deg);
+    margin-top: 250em;
+    margin-left: 47.3em;
+    position: absolute;
+}
+
+.section1 div:nth-of-type(13) {
+    background-color: #FF5500;
+    width: 700px;
+    height: 700px;
+    border-radius: 15%;
+    transform: rotate(45deg);
+    margin-top: 290em;
+    margin-left: 10em;
+    position: absolute;
+}
+
+div video {
+    transform: scale(0.36);
+    margin-left: -71em;
+    margin-top: -43.5em;
+    position: absolute;
+    clip-path: polygon(50% 0%, 82% 50%, 50% 100%, 18% 50%);
+}
+
+.section1 button {
+    font-family: 'Gilroy';
+    font-weight: 600;
+    font-size: 1.2em;
+    color: white;
+    border: 2px solid black;
+    border-radius: 50px;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    background-color: black;
+    cursor: pointer;
+    transform: scale(0.7);
+    animation-name: shaken;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    transition: .3s;
+}
+
+@keyframes shaken {
+    0% {
+        transform: scale(0.7) rotate(0deg);
+    }
+    15% {
+        transform: scale(0.725) rotate(5deg):
+    }
+    30% {
+        transform: scale(0.75) rotate(-5deg);
+    }
+    45% {
+        transform: scale(0.775) rotate(5.25deg);
+    }
+    60% {
+        transform: scale(0.8) rotate(-5.25deg);
+    }
+    75% {
+        transform: scale(0.825) rotate(5.5deg);
+    }
+    90% {
+        transform: scale(0.85) rotate(-5.5deg);
+    }
+    100% {
+        transform: scale(0.7) rotate(0deg);
+    }
+}
+
+.section2 img {
+    width: 10%;
+    height: 10%;
+    margin-left: 5em;
+    margin-top: 3em;
+}
+
+.section3 {
+    margin-top: 13em;
+    margin-left: 15em;
+}
+
+.button1 {
+    font-family: 'Gilroy';
+    font-weight: 600;
+    font-size: 1.2em;
+    color: black;
+    border: 2.5px solid #000000;
+    border-radius: 50px;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    background-color: transparent;
+    margin-right: 1em;
+    cursor: pointer;
+}
+
+.button2 {
+    font-family: 'Gilroy';
+    font-weight: 600;
+    font-size: 1.2em;
+    color: white;
+    border: 2px solid #000000;
+    border-radius: 50px;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    background-color: black;
+    cursor: pointer;
+}
+
+.ondertekst {
+    font-weight: 400;
+    font-size: 1em;
+    color: black;
+    margin-top: -2em;
+    margin-bottom: 2.5em;
+    width: 40em;
+}
+
+h2 {
+    font-size: 2.5em;
+    font-family: "Gilroy";
+    color: white;
+}
+
+h3 {
+    font-size: 2.5em;
+    font-family: "Gilroy";
+    color: white;
+}
+
+h4 {
+    font-size: 1.5em;
+    font-family: "Gilroy";
+    margin-left: 8em;
+    margin-top: 2.05em;
+}
+
+h5 {
+    font-size: 0.9em;
+    font-family: "Gilroy";
+    margin-left: 13.3em;
+    margin-top: -2em;
+    font-weight: 400;
+}
+
+h6 {
+    font-size: 1.3em;
+    font-family: "Gilroy";
+    color: black;
+    margin-left: 27em;
+    margin-top: -2.9em;
+}
+
+section article {
+    width: 30vw;
+    height: 25vh;
+    margin-left: 46%;
+    position: absolute;
+    margin-top: 27em;
+}
+
+.section4 article p:nth-of-type(1) {
+    font-size: 1.2em;
+    font-family: "Gilroy";
+    font-weight: 400;
+    color: white;
+    line-height: 1.6;
+}
+
+#tekstje3 {
+    position: absolute;
+    font-size: 1.2em;
+    font-family: "Gilroy";
+    font-weight: 400;
+    color: white;
+    line-height: 1.8;
+}
+
+.section4 {
+    background-color: dimgrey;
+}
+
+.section4 div:nth-of-type(1){
+    position: absolute;
+    width: 250px;
+    height: 500px;
+    background-color: white;
+    border-radius: 35px;
+    margin-left: 15em;
+    margin-top: 25em;
+}
+
+.section4 div img:nth-of-type(1) {
+    width: 100%;
+}
+
+.section4 div:nth-of-type(1):hover {
+    transform: scale(1.05) rotate(-1.5deg);
+    transition: .3s;
+    transition-timing-function: ease-in;
+}
+
+.section4 div:nth-of-type(2){
+    position: absolute;
+    width: 250px;
+    height: 500px;
+    background-color: white;
+    border-radius: 35px;
+    margin-left: 33em;
+    margin-top: 25em;
+}
+
+.section4 div img:nth-of-type(2) {
+    width: 100%;
+}
+
+.section4 div:nth-of-type(2):hover {
+    transform: scale(1.05) rotate(1.5deg);
+    transition: .3s;
+    transition-timing-function: ease-in-out;
+}
+
+.section4 div:nth-of-type(3) {
+    width: 1250px;
+    height: 150px;
+    background-color: white;
+    background-image: url(images/leipeshit-1.jpg);
+    background-size: 1300px;
+    background-repeat: no-repeat;
+    position: absolute;
+    border-radius: 100px;
+    border: 3px solid #FF5500;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    right: 50%;
+    top: 135em;
+}
+
+.section7 div:nth-of-type(1) {
+    width: 1250px;
+    height: 150px;
+    background-color: white;
+    background-image: url(images/leipeshit2-1.jpg);
+    background-size: 1300px;
+    background-repeat: no-repeat;
+    position: absolute;
+    border-radius: 100px;
+    border: 3px solid #FF5500;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    right: 50%;
+    top: 5em;
+}
+
+h7 {
+    font-size: 1.5em;
+    font-weight: 800;
+    font-family: "Gilroy";
+    margin-left: 8em;
+    width: 20%;
+    position: absolute;
+    margin-top: 2.05em;
+}
+
+h8 {
+    font-size: 0.9em;
+    font-family: "Gilroy";
+    margin-left: 13.3em;
+    margin-top: 5.5em;
+    font-weight: 400;
+    position: absolute;
+}
+
+h9 {
+    font-size: 1.3em;
+    font-weight: 800;
+    font-family: "Gilroy";
+    color: #FF5500;
+    position: absolute;
+    margin-top: 2.85em;
+    margin-left: 27em;
+}
+
+.section5 {
+    margin-top: 158.3em;
+    position: absolute;
+    background-color: black;
+    opacity: 0.85;
+    width: 100%;
+    height: 67.2%; 
+}
+
+.section6 {
+    margin-top: 205em;
+    position: absolute;
+    background-color: black;
+    opacity: 0.85;
+    width: 100%;
+    height: 20%;
+}
+
+.section6 article:nth-of-type(1) {
+    margin-left: 25.3%;
+    margin-top: -6em;
+    width: 59em
+}
+
+.section8 {
+    width: 100%;
+    height: 60%;
+    background-color: lightgrey;
+    margin-top: 116.7em;
+    position: absolute;
+}
+
+.beginscherm {
+    margin-top: 15em;
+    opacity: 1;
+}
+
+.section8 article {
+    margin-left: 58.2em;
+}
+
+.section8 article h2 {
+    transform: translate(-50%, -50%);
+    left: 50%;
+    right: 50%;
+    text-align: center;
+    transform: translateX(-240px);
+    color: black;
+}
+
+.vraag1 {
+    opacity: 0;
+    transform: translateX(-230px)
+}
+
+.vraag1fadein {
+    margin-top: 0;
+    margin-left: 0;
+    transform: translateX(-931px);
+    width: 100%;
+    height: 100%;
+    background-color: lightgrey;
+    opacity: 1;
+    animation-name: schuiven;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+}
+
+@keyframes schuiven {
+    0% {
+        transform: translateX(0px);
+    }
+    50% {
+        transform: translateX(-500px);
+    }
+    100% {
+        transform: translateX(-930px);
+    }
+}
+
+.eerstehotel {
+    transform: scale(0.5);
+    margin-left: -9em;
+    margin-top: -5.2em;
+}
+
+.tweedehotel {
+    transform: scale(0.5);
+    margin-left: -9em;
+    margin-top: -5.2em;
+}
+
+.titel1 {
+    margin-left: 13em;
+    margin-top: 1em;
+    font-size: 2em;
+}
+
+.tekstvraag1 {
+    color: black;
+    font-size: 1.5em;
+    margin-left: 30em;
+    margin-right: 1em;
+    margin-top: 0em;
+}
+
+.tekstvraag2 {
+    color: black;
+    font-size: 1.5em;
+    margin-left: 31.5em;
+    margin-right: 1em;
+    margin-top: 0em;
+}
+
+.section8 article div:nth-of-type(1) {
+    width: 50%;
+    height: 30%;
+    background-color: white;
+    border-radius: 25px;
+    position: absolute;
+    margin-top: -1.5em;
+    margin-left: 25%;
+    transform: scale(0.85);
+}
+
+#keuze1 {
+    width: 20%;
+    height: 20%;
+    margin-top: 6em;
+    margin-left: -2em;
+    position: absolute;
+}
+
+#keuze2 {
+    width: 20%;
+    height: 20%;
+    margin-top: 10em;
+    margin-left: -2em;
+    position: absolute;
+}
+
+#optie1 {
+    width: 15%;
+    height: 15%;
+    position: absolute;
+    margin-left: -1em;
+    margin-top: -16em;
+}
+
+#optie2 {
+    width: 15%;
+    height: 15%;
+    position: absolute;
+    margin-left: -1em;
+    margin-top: -16em;
+}
+
+.section8 article div:nth-of-type(2) {
+    width: 50%;
+    height: 30%;
+    background-color: white;
+    border-radius: 25px;
+    margin-top: 12em;
+    margin-left: 25%;
+    transform: scale(0.85);
+}
+
+.section8 article div:nth-of-type(3) {
+    width: 50%;
+    height: 30%;
+    background-color: white;
+    border-radius: 25px;
+    position: absolute;
+    margin-top: -1.5em;
+    margin-left: 25%;
+    transform: scale(0.85);
+}
+
+.section8 article div:nth-of-type(4) {
+    width: 50%;
+    height: 30%;
+    background-color: white;
+    border-radius: 25px;
+    margin-top: 12em;
+    margin-left: 25%;
+    transform: scale(0.85);
+}
+
+.section8 button:nth-of-type(1) {
+    font-family: 'Gilroy';
+    font-weight: 600;
+    font-size: 1.2em;
+    color: white;
+    border: 2.5px solid #000000;
+    background-color: black;
+    border-radius: 50px;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    margin-right: 1em;
+    cursor: pointer;
+    transform: translateX(-60px);
+}
+
+#button4 {
+    font-family: 'Gilroy';
+    font-weight: 600;
+    font-size: 1.2em;
+    color: white;
+    border: 2px solid #000000;
+    border-radius: 50px;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    background-color: black;
+    cursor: pointer;
+    position: absolute;
+    transform: translateX(-50%, -50%);
+    left: 50%;
+    margin-left: -2.5em;
+    margin-top: 2em;
+}
+
+#button5 {
+    font-family: 'Gilroy';
+    font-weight: 600;
+    font-size: 1.2em;
+    color: white;
+    border: 2px solid #000000;
+    border-radius: 50px;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    background-color: black;
+    cursor: pointer;
+    position: absolute;
+    transform: translateX(-50%, -50%);
+    left: 50%;
+    margin-left: -2.5em;
+    margin-top: 2em;
+}
+
+#button6 {
+    font-family: 'Gilroy';
+    font-weight: 600;
+    font-size: 1.2em;
+    color: white;
+    border: 2px solid #000000;
+    border-radius: 50px;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    background-color: black;
+    cursor: pointer;
+    position: absolute;
+    transform: translateX(-50%, -50%);
+    left: 50%;
+    margin-left: -2.5em;
+    margin-top: 2em;
+}
+
+.vraag2 {
+    opacity: 0;
+    margin-left: 35%;
+    margin-top: 38.5em;
+}
+
+.vraag2fadein {
+    margin-top: 0;
+    margin-left: 0;
+    transform: translateX(-931px);
+    width: 100%;
+    height: 100%;
+    background-color: lightgrey;
+    opacity: 1;
+    animation-name: schuiven;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+}
+
+.vraag3 {
+    opacity: 0;
+    margin-left: 35%;
+    margin-top: 38.5em;
+}
+
+.vraag3fadein {
+    margin-top: 0;
+    margin-left: 0;
+    transform: translateX(-931px);
+    width: 100%;
+    height: 100%;
+    background-color: lightgrey;
+    opacity: 1;
+    animation-name: schuiven;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+}
+
+.vraag4 {
+    opacity: 0;
+    margin-left: 35%;
+    margin-top: 38.5em;
+}
+
+.vraag4fadein {
+    margin-top: 0;
+    margin-left: 0;
+    transform: translateX(-931px);
+    width: 100%;
+    height: 100%;
+    background-color: lightgrey;
+    opacity: 1;
+    animation-name: schuiven;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+}
+
+.section7 {
+    width: 100%;
+    height: 60%;
+    margin-top: 222.5em;
+    position: absolute;
+}
+
+.section5 video {
+    transform: scale(0.5);
+    margin-top: -12em;
+}
+
+.section9 {
+    width: 100%;
+    height: 70%;
+    margin-top: 290em;
+    position: absolute;
+    background-color: black;
+    opacity: 0.94;
+}
+
+h10 {
+    font-size: 1.5em;
+    font-family: "Gilroy";
+    color: white;
+    font-weight: 600;
+    margin-left: 28.5em;
+    margin-top: 28em;
+    position: absolute;
+}
+
+.section7 div:nth-of-type(2) {
+    transform: scale(0.37);
+    margin-left: 35em;
+    margin-top: -1em;
+}
+
+.section7 div:nth-of-type(3) {
+    width: 100%;
+    height: 50%;
+}
+
+article h10 {
+    width: 250%;
+    color: black;
+    position: absolute;
+    margin-top: -19em;
+    margin-left: -25em;
+    font-size: 6em;
+}
+
+h11 {
+    color: #FF5500;
+    font-size: 1em;
+    font-family: "Gilroy";
+    font-weight: 600;
+    margin-left: 48em;
+    margin-top: 44em;
+    position: absolute;
+}
+
+.laatstetekst {
+    position: absolute;
+    color: black;
+    font-size: 3.5em;
+    width: 250%;
+    font-weight: 500;
+    margin-top: -27.8em;
+    margin-left: -42.8em;
+}
+
+h12 {
+    color: white;
+    position: absolute;
+    font-size: 4em;
+    font-family: "Gilroy";
+    font-weight: 600;
+    background-color: lightgray;
+    margin-top: -1.6em;
+    margin-left: 1em;
+    padding: .4em;
+}
+
+h13 {
+    color: white;
+    position: absolute;
+    font-size: 3em;
+    font-family: "Gilroy";
+    font-weight: 600;
+    margin-left: 10em;
+    margin-top: 3em;
+}
+
+h14 {
+    color: white;
+    position: absolute;
+    font-size: 3em;
+    font-family: "Gilroy";
+    font-weight: 600;
+    margin-left: 6.5em;
+    margin-top: 4.6em;
+}
+
+h15 {
+    color: white;
+    position: absolute;
+    font-size: 3em;
+    font-family: "Gilroy";
+    font-weight: 600;
+    margin-left: 8.7em;
+    margin-top: 6.4em;
+}
+
+.eersteboek {
+    transform: scale(0.5);
+    margin-top: -4em;
+    margin-left: -10em
+}
+
+.tweedeboek {
+    transform: scale(0.3);
+    margin-top: -11em;
+    margin-left: -59.9em;
+}
+
+#optie3 {
+    width: 15%;
+    height: 15%;
+    position: absolute;
+    margin-top: -23.5em;
+}
+
+#optie4 {
+    width: 15%;
+    height: 15%;
+    position: absolute;
+    margin-top: 6em;
+    margin-left: 1em;
+}
+
+#optie5 {
+    width: 15%;
+    height: 15%;
+    position: absolute;
+    margin-top: 6em;
+    margin-left: 1em;
+}
+
+h16 {
+    font-size: 1.6em;
+    font-family: "Gilroy";
+    margin-top: 3.2em;
+    margin-left: 6em;
+    position: absolute;
+    font-weight: 600;
+}
+
+h17 {
+    font-size: 1.6em;
+    font-family: "Gilroy";
+    margin-top: 3.2em;
+    margin-left: 6em;
+    position: absolute;
+    font-weight: 600;
+}
+
+.uitslag {
+    transform: scale(0.1);
+    margin-left: -123.5em;
+    margin-top: -25em;
+}
